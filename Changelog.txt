@@ -1,0 +1,20 @@
+-
+----------------------------
+Document to hold notes, things that
+need to be done, tests , etc...
+------------------------------
+NOTE:
+TEST_INTERCEPT WORKS FOR ALL TEST CASES. IT IS UP TO YOU, ARJUN.
+
+Things to do
+--------------
+- REQUEST_START_MONITORING and REQUEST_STOP_MONITORING
+
+Things done
+--------------
+- REQUEST_SYSCALL_INTERCEPT and REQUEST_SYSCALL_RELEASE fully implemented; replace each intercepted syscall in table with pointer to interceptor function.
+- MY_CUSTOM_SYSCALL and exit_group have been hijacked.
+- interceptor function fully implemented.
+- init and exit functions implemented.
+
+
